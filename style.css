@@ -1,0 +1,339 @@
+
+.main-slider {
+    position: relative;
+}
+
+.slide .owl-nav>* {
+    position: absolute;
+    top: 50%;
+}
+
+.slide .owl-nav>.owl-prev {
+    left: 0;
+    color:#000000;
+    border-radius: 50px;
+}
+
+.slide .owl-nav>.owl-next {
+    right: 0;
+    color:#000000;
+    border-radius: 50px;
+}
+
+.main-slider.container-fluid,
+.container-fluid.main-slider .row>[class^=col]{
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-fluid.main-slider .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#navbar {
+    position: absolute;
+    top:10px;
+    left:50px;
+    right:50px;
+    z-index: 12;
+
+}
+.navigacija {
+    font-size: 10px;
+}
+nav.navbar.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.main-slider .tekst-naslov {
+    position: absolute;
+    top:30%;
+    left:7%;
+    z-index: 12;
+    color:#FFFFFF;
+}
+.main-slider .tekst-naslov .crta {
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 20px;
+}
+.main-slider .tekst-naslov .margin-bottom {
+    margin-bottom: 30px;
+}
+
+.main-slider .blok-naslov {
+    background-color:rgba(0, 51, 17, 0.6);
+    padding:40px;
+}
+.main-slider .margin-right {
+    margin-right: 20px;
+}
+.main-slider .blok-naslov a:link,
+.main-slider .blok-naslov a:visited {
+    color:#f0c019;
+}
+.main-slider .blok-naslov a:hover,
+.main-slider .blok-naslov a:active {
+    color:#d2110d;
+}
+
+.sivi-tekst {
+    color:#8c8c8c;
+}
+.blok2 {
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.blok2 .padding {
+    padding-bottom: 20px;
+}
+
+.blok2 .btn {
+    border-radius: 0px;
+    background-color: #f0b833;
+    color:#FFFFFF;
+}
+
+.blok2 p {
+    color: #8c8c8c;
+}
+
+.blok3 {
+    text-align: center;
+    padding-bottom: 40px;
+    background-color:#f7f7f7;
+    padding-top:50px;
+}
+.blok3 p {
+    padding-top: 30px;
+}
+
+.blok4 {
+    overflow: hidden;
+    background-color:#f7f7f7;
+}
+
+.blok4 .icon {
+    font-size: 28px;
+    padding: 20px;
+    background-color:#21a369;
+    color: #FFFFFF;
+}
+.blok4 .margin-bottom {
+    margin-bottom:70px;
+}
+
+.blok4 .datum {
+    padding: 8px;
+    background-color:#1b8d5a;
+    color:#FFFFFF;
+    display: block;
+    width: 66px;
+    margin-top: 15px;
+}
+.blok4 .ikonica {
+    padding-top: 35px;
+}
+.blok5 {
+    background-color:#186844;
+    color:#FFFFFF;
+    padding: 50px;
+}
+.blok5 .btn {
+    border-radius: 0px;
+    background-color:#f0b833;
+    color: #FFFFFF;
+}
+.blok5 .button {
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.blok6 {
+    text-align: center;
+}
+.crta {
+    border-top: 2px solid #e7e7e7;
+    padding-top: 20px;
+}
+.blok6 p {
+    padding-top: 30px;
+}
+.blok7 h3 {
+    line-height: 150%;
+}
+.blok8 {
+    background-color:#2e2e2e;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blok9 {
+    background-color: #222222;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+.blok9 .green {
+    color: #28ab42;
+}
+.blok9 .slika {
+    padding-top: 20px;
+}
+.blok9 .mali {
+    font-size: 10px;
+}
+.blok9 .kutija {
+    text-align: center;
+    border: 1px solid #515151;
+    padding: 10px;
+}
+.kutija .social {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.kutija a:link,
+.kutija a:visited {
+    color:#515151;
+}
+.kutija a:hover {
+    color:#bb1818;
+}
+.kutija a:active {
+    color: #FFFF00;
+}
+
+.blok9 .border {
+    border-bottom: 1px solid #515151;
+}
+.blok9 .info {
+    padding-top: 15px;
+    color: #515151;
+}
+.info a:link,
+.info a:visited {
+    background-color: transparent;
+    color: #515151;
+    text-decoration: none;
+}
+.info a:hover {
+    background-color: #921113;
+}
+.info a:active {
+    background-color: #f90;
+}
+
+.blok9 .tags {
+    padding-top: 15px;
+}
+
+.tags ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tags ul li {
+    float: left;
+}
+.tags ul li a {
+    display: block;
+    padding: 7px;
+    margin: 0 7px 7px 0;
+    border: 1px solid #515151;
+}
+.tags ul li a:link,
+.tags ul li a:visited {
+    background-color: transparent;
+    color: #515151;
+    text-decoration: none;
+}
+.tags ul li a:hover {
+    background-color: #921113;
+}
+.tags ul li a:active {
+    background-color: #f90;
+}
+.blok9 .date1 {
+    background-color:#3b3b3b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.blok9 .date {
+    border: 1px solid #515151;
+    text-align: center;
+    background-color: #3b3b3b;
+}
+.blok9 .datum {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.blok9 .datum-crta {
+    border-top:3px solid #FFFFFF;;
+}
+.blok9 .date-tekst {
+    margin-top: 12px;
+}
+.blok9 .sivi-tekst {
+    font-size: 12px;
+}
+.blok9 .datumi {
+    padding-bottom: 30px;
+}
+.blok91 {
+    border-bottom: 3px solid #2b2b2b;
+    padding-bottom: 77px;
+}
+.blok10 {
+    background-color:#222222;
+    color: #565656;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blok10 .green {
+    color: #169949;
+}
+.blok10 .social {
+    text-align: right;
+    font-size: 30px;
+}
+@media screen and (max-width:1305px){
+	.tekst-naslov p,
+	.tekst-naslov h1 {
+		font-size:0.9em;
+	}
+	.blok-naslov {
+		font-size:0.7em;
+	}
+	
+}
+@media screen and (max-width:1085px){
+	.tekst-naslov p,
+	.tekst-naslov h1 {
+		font-size:0.6em;
+	}
+	.blok-naslov {
+		font-size:0.4em;
+	}
+	
+}
+@media screen and (max-width:555px){
+	.tekst-naslov p,
+	.tekst-naslov h1 {
+		font-size:0.6em;
+	}
+	.blok-naslov {
+		font-size:0.3em;
+	}
+	#navbar img {
+		width:120px;
+		height:20px;
+	}
+	#slideBar .nav li a {
+		color:yellow;
+	}
+}
